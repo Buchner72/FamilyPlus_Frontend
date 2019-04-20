@@ -14,3 +14,6 @@ export class AppComponent {
 // 2.Web API mit Personen erstellen (Visual Studio)
 // 3.Auf WebAPI zugreifen (get, put, post usw )
 // Oh mien Gott
+
+
+// Start mit: npm start
