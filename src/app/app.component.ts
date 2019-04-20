@@ -15,6 +15,5 @@ export class AppComponent {
 // 3.Auf WebAPI zugreifen (get, put, post usw )
 // Oh mien Gott
 
-// Jaja erst Node.js installieren
-// Dann kann mann mit "npm install -g @angular/cl"  auch das CLI installiern, und es funktioniert auch "ng serve" und nur "npm start"
-//
+// Jaja erst  mit "npm install -g @angular/cl"  auch das CLI installiern, und es funktioniert auch "ng serve" und nur "npm start"
+
