@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { Page1Component } from './page1/page1.component';
+import { PersonenListComponent } from './personen-list/personen-list.component';
 
 
 
@@ -15,7 +16,8 @@ import { Page1Component } from './page1/page1.component';
     AppComponent,
     TestComponent,
     NavbarComponent,
-    Page1Component
+    Page1Component,
+    PersonenListComponent
   ],
   imports: [
     BrowserModule,
