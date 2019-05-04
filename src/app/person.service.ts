@@ -12,7 +12,6 @@ export class PersonService {
 
 getPersonen(): Observable<Person[]> {
   return this.http.get<Person[]>(this._url);
-  console.log(this._url);
 }
 
 /**
