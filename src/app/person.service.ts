@@ -10,7 +10,7 @@ export class PersonService {
   constructor(private http: HttpClient) {}
 
   private _url: string = "//localhost:49608/api/Personen";
-  //private _url:string = "/assets/data/employees.json"
+  //private _url:string = "/assets/data/employees.json"   gut für Tests
 
   getPersonen(): Observable<Person[]> {
     return this.http.get<Person[]>(this._url);
