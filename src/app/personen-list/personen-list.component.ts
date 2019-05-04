@@ -1,10 +1,10 @@
-import { Person } from "./../Models/Personen/Person";
-import { Component, OnInit } from "@angular/core";
-import { PersonService } from "../person.service";
+import { Person } from './../Models/Personen/Person';
+import { Component, OnInit } from '@angular/core';
+import { PersonService } from '../person.service';
 // import { PersonService2 } from "../person.service2";
 
 @Component({
-  selector: "app-personen-list",
+  selector: 'app-personen-list',
   template: `
     <h1>
       Versicherte Personen!

@@ -1,4 +1,4 @@
-/** 
+/**
 import { Injectable } from "@angular/core";
 import {Http} from "@angular/http";
 import { Person } from "./Models/Personen/Person";
@@ -22,4 +22,5 @@ export class PersonService2 {
   }
 
 }
+// tslint:disable-next-line: jsdoc-format
 */
