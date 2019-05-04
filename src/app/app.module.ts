@@ -10,7 +10,10 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { Page1Component } from "./page1/page1.component";
 
 import { HttpClientModule } from "@angular/common/http";
+import {HttpModule} from "@angular/http";
+
 import { PersonService } from './person.service';
+import { PersonService2 } from './person.service2';
 import { PersonenListComponent } from "./personen-list/personen-list.component";
 
 
@@ -25,7 +28,8 @@ import { PersonenListComponent } from "./personen-list/personen-list.component";
   imports: [
     BrowserModule,
      AppRoutingModule,
-     HttpClientModule
+     HttpClientModule,
+     HttpModule
     ],
   providers: [PersonService],
   bootstrap: [AppComponent]
