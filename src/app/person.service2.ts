@@ -11,7 +11,9 @@ export class PersonService2 {
 
   }
 
-  private _url:string = "//localhost:49608/api/Personen"
+  //private _url:string = "//localhost:49608/api/Personen"
+  private _url:string = "/assets/data/employees.json"
+
   getPersonen(): Promise<Person[]>{
     return this.http.get(this._url)
       .toPromise()

@@ -24,14 +24,17 @@ import { PersonService2 } from "../person.service2";
 export class PersonenListComponent implements OnInit {
   public Personen = [];
 
-  /**
+
  constructor(private _personService: PersonService) {}
 
   ngOnInit() {
     this._personService.getPersonen().subscribe(data => (this.Personen = data));
     console.log(this.Personen);
   }
-*/
+
+
+
+  /**
   constructor(private _personService: PersonService2) {}
 
   ngOnInit() {
@@ -39,4 +42,5 @@ export class PersonenListComponent implements OnInit {
       .getPersonen()
       .then(Personen => (this.Personen = Personen));
   }
+  */
 }

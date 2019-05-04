@@ -31,7 +31,7 @@ import { PersonenListComponent } from "./personen-list/personen-list.component";
      HttpClientModule,
      HttpModule
     ],
-  providers: [PersonService],
+  providers: [PersonService,PersonService2],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
