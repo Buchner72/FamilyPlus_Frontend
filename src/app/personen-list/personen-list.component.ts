@@ -25,6 +25,7 @@ export class PersonenListComponent implements OnInit {
   public Personen = [];
 
 
+
  constructor(private _personService: PersonService) {}
 
   ngOnInit() {
@@ -34,7 +35,7 @@ export class PersonenListComponent implements OnInit {
 
 
 
-  /**
+/**
   constructor(private _personService: PersonService2) {}
 
   ngOnInit() {
@@ -42,5 +43,5 @@ export class PersonenListComponent implements OnInit {
       .getPersonen()
       .then(Personen => (this.Personen = Personen));
   }
-  */
+*/
 }
