@@ -6,9 +6,9 @@ import { PersonService } from "../person.service";
 @Component({
   selector: "app-personen-list",
   template: `
-    <p>
-      personen-list works!
-    </p>
+    <h1>
+      Versicherte Personen!
+    </h1>
 
     <div class="row">
       <ul *ngFor="let person of Personen">
