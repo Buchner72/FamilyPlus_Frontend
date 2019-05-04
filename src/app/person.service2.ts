@@ -1,4 +1,7 @@
 /**
+Diese Art bitte nicht mehr verwenden, obwohl es in älteren Tutorials  öfters verwendet
+Anb Abgular Version 7 nicht mehr verwenden
+
 import { Injectable } from "@angular/core";
 import {Http} from "@angular/http";
 import { Person } from "./Models/Personen/Person";
