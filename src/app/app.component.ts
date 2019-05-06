@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'FamilyPlus';
 }
 
+//Passende Backend -> MyWebAPI -> auf Github -> MyWebALI_FB01
+
 // Weitere Vorgensweise
 // 1.Personen anlegen (Struktur anlegen)
 // 2.Web API mit Personen erstellen (Visual Studio)
