@@ -9,7 +9,7 @@ import "rxjs/add/operator/toPromise"; //Aus einem Observable ein Promise machen
 export class PersonService {
   constructor(private http: HttpClient) {}
 
-  // private _url: string = "//localhost:49608/api/Personen";
+   // private _url: string = "//localhost:49608/api/Personen";
    private _url:string = "/assets/data/employees.json"   //gut für Tests
 
   getPersonen(): Observable<Person[]> {

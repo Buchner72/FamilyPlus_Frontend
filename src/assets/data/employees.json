@@ -1,7 +1,7 @@
 [
-  {"Id": 1, "Vorname": "Lokal", "Nachname": "Test"},
-  {"Id": 2, "Vorname": "Brandon", "Nachname": "Maier"},
-  {"Id": 3, "Vorname": "Christina", "Nachname": "Hofer"},
-  {"Id": 4, "Vorname": "Elena", "Nachname": "Pirker"},
-  {"Id": 5, "Vorname": "Felicia", "Nachname": "Ladstätter"}
+  {"Id": 1, "Vorname": "Lokal", "Nachname": "Test" , "IsKind" : "false", "PraemieFP":"1,99", "AdresseId":10 },
+  {"Id": 2, "Vorname": "Brandon", "Nachname": "Maier", "IsKind" : "false", "PraemieFP":"1,99", "AdresseId":10},
+  {"Id": 3, "Vorname": "Christina", "Nachname": "Hofer", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10},
+  {"Id": 4, "Vorname": "Elena", "Nachname": "Pirker", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10 },
+  {"Id": 5, "Vorname": "Felicia", "Nachname": "Ladstätter", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10}
 ]

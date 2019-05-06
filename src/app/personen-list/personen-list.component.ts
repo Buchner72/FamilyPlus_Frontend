@@ -7,32 +7,41 @@ import { PersonService } from "../person.service";
 @Component({
   selector: "app-personen-list",
   template: `
-    <h1>
+
+    <div class="container">
+      <h1>
       Versicherte Personen!
     </h1>
-    <table class="table table-striped">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">Id</th>
-          <th scope="col">Vorname</th>
-          <th scope="col">Nachname</th>
-          <th scope="col">Aktion(event-binding)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let person of Personen; let i = index">
-         <!-- <td>{{ i }}</td> -->
-         <td>{{person.Id}}</td>
-          <td>{{ person.Vorname }}</td>
-          <td>{{ person.Nachname }}</td>
-          <td>
-            <button (click)="PersonClick(i)" class="btn btn-outline-primary">
-              Bearbeiten
-            </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Vorname</th>
+            <th scope="col">Nachname</th>
+            <th scope="col">IsKind</th>
+            <th scope="col">PraemieFP</th>
+            <th scope="col">AdresseId</th>
+            <th scope="col">Aktion(event-binding)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let person of Personen; let i = index">
+            <!-- <td>{{ i }}</td> -->
+            <td>{{ person.Id }}</td>
+            <td>{{ person.Vorname }}</td>
+            <td>{{ person.Nachname }}</td>
+            <td>{{ person.IsKind }}</td>
+            <td>{{ person.PraemieFP }}</td>
+            <td>{{ person.AdresseId }}</td>
+            <td>
+              <button (click)="PersonClick(i)" class="btn btn-outline-primary">
+                Bearbeiten
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   `,
   styles: []
 })
@@ -48,7 +57,9 @@ export class PersonenListComponent implements OnInit {
   }
 
   PersonClick(Index: number) {
-    console.log("Es wurde auf die Person mit dem Index " + (Index+1) +" geklickt!");
+    console.log(
+      "Es wurde auf die Person mit dem Index " + (Index + 1) + " geklickt!"
+    );
   }
 
   /**
