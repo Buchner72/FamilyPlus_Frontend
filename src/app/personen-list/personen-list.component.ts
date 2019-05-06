@@ -28,7 +28,7 @@ import { PersonService } from "../person.service";
           <tr *ngFor="let person of Personen; let i = index">
             <!-- <td>{{ i }}</td> -->
             <td>{{ person.Id }}</td>
-            <td>{{ person.Vorname }}</td>
+            <td>{{ person.Vornamne }}</td>
             <td>{{ person.Nachname }}</td>
             <td>{{ person.IsKind }}</td>
             <td>{{ person.PraemieFP }}</td>
