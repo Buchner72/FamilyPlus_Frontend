@@ -15,6 +15,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { PersonService } from './person.service';
 //import { PersonService2 } from './person.service2';
 import { PersonenListComponent } from "./personen-list/personen-list.component";
+import { FamilyPlusComponent } from './family-plus/family-plus.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PersonenListComponent } from "./personen-list/personen-list.component";
     TestComponent,
     NavbarComponent,
     Page1Component,
-    PersonenListComponent
+    PersonenListComponent,
+    FamilyPlusComponent
   ],
   imports: [
     BrowserModule,

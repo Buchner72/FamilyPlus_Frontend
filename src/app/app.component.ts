@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'FamilyPlus';
+
 }
 
 //Passende Backend -> MyWebAPI -> auf Github -> MyWebALI_FB01
