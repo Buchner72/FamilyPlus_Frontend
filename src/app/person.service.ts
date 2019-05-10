@@ -10,10 +10,10 @@ import "rxjs/add/operator/toPromise"; //Aus einem Observable ein Promise machen
 export class PersonService {
   constructor(private http: HttpClient) {}
 
-  //swager http://localhost:57375/swagger
-  private _url: string = "//localhost:57375/api/VTVP";      //VTVP Personen aus der Vertragsklasse VerTragVersichertePersonen
+  //Info - swager http://localhost:57375/swagger
+ // private _url: string = "//localhost:57375/api/VTVP";      //VTVP Personen aus der Vertragsklasse VerTragVersichertePersonen
   //  private _url: string = "//localhost:57375/api/Personen";
-   // private _url:string = "/assets/data/employees.json"   //gut für Test
+    private _url:string = "/assets/data/employees.json"   //gut für Test
 
   // Zugriff API
   getPersonen(): Observable<Person[]> {

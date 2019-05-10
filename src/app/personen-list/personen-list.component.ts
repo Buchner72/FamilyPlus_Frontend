@@ -15,24 +15,24 @@ import { PersonService } from "../person.service";
       <table class="table table-striped">
         <thead class="thead-dark">
           <tr>
-            <th scope="col">Id</th>
+            <th scope="col">Anrede</th>
+            <th scope="col">Titel</th>
             <th scope="col">Vorname</th>
             <th scope="col">Nachname</th>
-            <th scope="col">IsKind</th>
-            <th scope="col">PraemieFP</th>
-            <th scope="col">AdresseId</th>
+            <th scope="col">Geburtsdatum</th>
+            <th scope="col">Alter</th>
             <th scope="col">Aktion(event-binding)</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let person of Personen; let i = index">
             <!-- <td>{{ i }}</td> -->
-            <td>{{ person.Id }}</td>
+            <td>{{ person.Anrede }}</td>
+            <td>{{ person.Titel }}</td>
             <td>{{ person.Vorname }}</td>
             <td>{{ person.Nachname }}</td>
-            <td>{{ person.IsKind }}</td>
-            <td>{{ person.PraemieFP }}</td>
-            <td>{{ person.AdresseId }}</td>
+            <td>{{ person.Geburtsdatum }}</td>
+            <td>{{ person.Alter }}</td>
             <td>
               <button (click)="PersonClick(i)" class="btn btn-outline-primary">
                 Bearbeiten

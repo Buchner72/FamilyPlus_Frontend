@@ -1,7 +1,6 @@
 [
-  {"Id": 1, "Vorname": "Lokal", "Nachname": "Test" , "IsKind" : "false", "PraemieFP":"1,99", "AdresseId":10 },
-  {"Id": 2, "Vorname": "Brandon", "Nachname": "Maier", "IsKind" : "false", "PraemieFP":"1,99", "AdresseId":10},
-  {"Id": 3, "Vorname": "Christina", "Nachname": "Hofer", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10},
-  {"Id": 4, "Vorname": "Elena", "Nachname": "Pirker", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10 },
-  {"Id": 5, "Vorname": "Felicia", "Nachname": "Ladstätter", "IsKind" : "true", "PraemieFP":"1,99", "AdresseId":10}
+  {"Anrede": 1, "Titel": "Mag.", "Vorname": "Lokal", "Nachname": "Test" , "Geburtsdatum" : "01.01.1980", "Alter":"39" },
+  {"Anrede": 1,  "Vorname": "Brandon", "Nachname": "Maier" , "Geburtsdatum" : "01.01.1970", "Alter":"49" },
+  {"Anrede": 1,  "Vorname": "Elena", "Nachname": "Pirker" , "Geburtsdatum" : "01.01.1960", "Alter":"59" },
+  {"Anrede": 1, "Titel": "Ing.", "Vorname": "Felicia", "Nachname": "Felicia" , "Geburtsdatum" : "01.01.1950", "Alter":"69" }
 ]
