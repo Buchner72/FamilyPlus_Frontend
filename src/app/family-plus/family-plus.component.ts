@@ -8,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class FamilyPlusComponent implements OnInit {
   title = 'FamilyPlus';
 
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  MenueAnsicht(er: number) {
+    console.log(er + '-Erwachsene Person/nen');
   }
 
 }
