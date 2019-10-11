@@ -20,3 +20,7 @@ export class PersonService {
     return this.http.get<Person[]>(this._url);
   }
 }
+
+//Im Terminal Fenster
+//Start mit :  ng serve -o   'Wobei -o gleich den Browser mit der URL http://localhost:4200/ öffnet '
+//Beenden   :  STRG+C
